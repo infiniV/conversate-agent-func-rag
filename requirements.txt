@@ -1,0 +1,25 @@
+# LiveKit Plugins
+livekit-plugins-azure
+livekit-plugins-cartesia
+livekit-plugins-deepgram
+livekit-plugins-elevenlabs
+livekit-plugins-google
+livekit-plugins-minimal
+livekit-plugins-nltk
+livekit-plugins-openai
+livekit-plugins-rag
+livekit-plugins-llama-index
+livekit-plugins-turn-detector
+livekit-plugins-silero
+livekit-plugins-browser
+
+# Environment Management
+python-dotenv
+
+# File Handling
+aiofile
+
+# Machine Learning and NLP
+llama-index
+sentence-transformers
+llama-index-embeddings-huggingface

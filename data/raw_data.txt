@@ -1,0 +1,65 @@
+Route: Lahore Metro Bus - Gajjumata to Shahdara
+Time: 06:00 | Available Seats: 45
+Time: 07:00 | Available Seats: 32
+Time: 08:00 | Available Seats: 12
+Time: 09:00 | Available Seats: 28
+
+Route: Lahore Speedo Bus - Model Town to Thokar Niaz Baig
+Time: 07:30 | Available Seats: 25
+Time: 09:30 | Available Seats: 38
+Time: 11:30 | Available Seats: 42
+Time: 13:30 | Available Seats: 30
+
+Route: Orange Line - Dera Gujran to Ali Town
+Time: 08:00 | Available Seats: 50
+Time: 10:00 | Available Seats: 35
+Time: 12:00 | Available Seats: 27
+Time: 14:00 | Available Seats: 44
+
+Route: Lahore Express Bus - Liberty to Airport
+Time: 06:30 | Available Seats: 40
+Time: 08:30 | Available Seats: 22
+Time: 10:30 | Available Seats: 33
+Time: 12:30 | Available Seats: 48
+
+Route: Green Line - Township to Mall Road
+Time: 07:00 | Available Seats: 38
+Time: 09:00 | Available Seats: 29
+Time: 11:00 | Available Seats: 45
+Time: 13:00 | Available Seats: 31
+
+Route: Lahore City Bus - Johar Town to Railway Station
+Time: 06:45 | Available Seats: 35
+Time: 08:45 | Available Seats: 28
+Time: 10:45 | Available Seats: 42
+Time: 12:45 | Available Seats: 39
+
+Route: Express Route - Gulberg to DHA
+Time: 07:15 | Available Seats: 44
+Time: 09:15 | Available Seats: 33
+Time: 11:15 | Available Seats: 27
+Time: 13:15 | Available Seats: 36
+
+Route: Blue Line - Anarkali to Bahria Town
+Time: 06:15 | Available Seats: 41
+Time: 08:15 | Available Seats: 37
+Time: 10:15 | Available Seats: 25
+Time: 12:15 | Available Seats: 46
+
+Route: University Express - PU to UET
+Time: 07:45 | Available Seats: 30
+Time: 09:45 | Available Seats: 28
+Time: 11:45 | Available Seats: 43
+Time: 13:45 | Available Seats: 34
+
+Route: Ring Road Express - Harbanspura to Multan Road
+Time: 06:30 | Available Seats: 47
+Time: 08:30 | Available Seats: 39
+Time: 10:30 | Available Seats: 26
+Time: 12:30 | Available Seats: 35
+
+Route: City Circular - Ichra to Mughalpura
+Time: 07:20 | Available Seats: 32
+Time: 09:20 | Available Seats: 41
+Time: 11:20 | Available Seats: 38
+Time: 13:20 | Available Seats: 29
