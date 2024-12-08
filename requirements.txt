@@ -1,4 +1,3 @@
-# LiveKit Plugins
 livekit-plugins-azure
 livekit-plugins-cartesia
 livekit-plugins-deepgram
@@ -11,15 +10,10 @@ livekit-plugins-rag
 livekit-plugins-llama-index
 livekit-plugins-turn-detector
 livekit-plugins-silero
-livekit-plugins-browser
-
-# Environment Management
+supabase
+phonenumbers
 python-dotenv
-
-# File Handling
 aiofile
-
-# Machine Learning and NLP
 llama-index
 sentence-transformers
 llama-index-embeddings-huggingface
