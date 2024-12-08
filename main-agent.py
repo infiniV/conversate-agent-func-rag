@@ -1,16 +1,15 @@
 import os
 import logging
 import asyncio
-from typing import Dict, AsyncIterable
+from typing import AsyncIterable
 from dotenv import load_dotenv
-from livekit.agents import AutoSubscribe, JobContext, WorkerOptions, cli, llm, tokenize
-from livekit.agents.pipeline import VoicePipelineAgent, AgentCallContext
-from livekit.plugins import deepgram, openai, silero, turn_detector , elevenlabs ,cartesia
-from llama_index.core import SimpleDirectoryReader, StorageContext, VectorStoreIndex, load_index_from_storage, Settings
+from livekit.agents import AutoSubscribe, JobContext, WorkerOptions, cli, llm, tokenize ,JobProcess
+from livekit.agents.pipeline import VoicePipelineAgent
+from livekit.plugins import deepgram, openai, silero,cartesia
+# from llama_index.core import SimpleDirectoryReader, StorageContext, VectorStoreIndex, load_index_from_storage, Settings
 from llama_index.core.schema import MetadataMode
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+# from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from supabase import create_client, Client
-import csv
 import re
 from dataclasses import dataclass
 from datetime import datetime, timedelta
@@ -375,8 +374,12 @@ async def entrypoint(ctx: JobContext):
 
     await start_agent_with_retry()
 
-def prewarm_fnc(proc: JobContext):
-    proc.userdata["vad"] = silero.VAD.load(activation_threshold=0.2)
+def prewarm_process(proc: JobProcess):
+    proc.userdata["vad"] = silero.VAD.load(activation_threshold=0.3)
 if __name__ == "__main__":
-    cli.run_app(WorkerOptions(entrypoint_fnc=entrypoint))
-
+    cli.run_app(
+        WorkerOptions(
+            entrypoint_fnc=entrypoint,
+            prewarm_fnc=prewarm_process,
+        ),
+    )
